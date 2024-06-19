@@ -1,0 +1,67 @@
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container{
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .container{
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1140px;
+    }
+}
+
+@media (max-width: 500px){
+    .hero-title{
+        font-size: 3rem;
+    }
+    .navbar{
+        display: block;
+    }
+    .nav-link-container{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .aboutme-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    footer{
+        grid-template-areas:
+        "logo"
+        "address"
+        "map";
+        justify-items: center;
+        text-align: center;
+    }
+    .my-name{font-size: 2.5rem;}
+    .hero-title{font-size: 2rem;;}
+
+    .nav-logo-container{
+        justify-content: center;
+    }
+
+    .info-me{
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/media-queries.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <nav class="navbar back-in-down">
+                <div class="nav-logo-container">
+                    <a href="/" class="navbar-link"><img src="public/images/logo.png" alt="Logo" width="100"></a>
+                </div>
+                <div class="nav-link-container">
+                    <a href="#Works" class="navbar-link link-hover">Works</a>
+                    <a href="#Experience" class="navbar-link">Experience</a>
+                    <a href="#Skills" class="navbar-link">Skills</a>
+                    <a href="#Contact" class="navbar-link navbar-btn">Contact Me</a>
+                </div>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <center><div class="image-container back-in-down">
+                <img src="public/images/portrait.jpg" width="200" height="200" alt="">
+            </div>
+            </center>
+            <center><h1 class="my-name back-in-down">Guten Tag, ich bin Aneur</h1></center>
+            <div class="hero-wrapper animated-bio">
+                <div class="hero-title">Ich bin ein Programierer</div>
+            </div>
+        </section>
+
+        <section class="skills animated-bio">
+            <h2 class="section-title">MY Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <p class="skill-title">HTML  75%</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p class="skill-title">CSS  80%</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p class="skill-title">JS  40%</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 40%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p class="skill-title">Bootstrap  60%</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 60%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p class="skill-title">React  5%</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 5%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p class="skill-title">Vue.js  0%</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 0%;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2 class="section-title">My Services</h2>
+            <div class="services-container">
+                <div class="service-card">
+                    <div class="service-icon-container">
+                        <img src="public/icons/icons8-linkedin.svg" alt="">
+                    </div>
+                    <div class="service-card-body">
+                        <h2>Brand Design</h2>
+                        <p>Creation / Edition or Audit of your DS</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon-container">
+                        <img src="public/icons/icons8-instagram.svg" alt="">
+                    </div>
+                    <div class="service-card-body">
+                        <h2>UX UI Design</h2>
+                        <p>Creation / Edition or Audit of your DS</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon-container">
+                        <img src="public/icons/icons8-linkedin.svg" alt="">
+                    </div>
+                    <div class="service-card-body">
+                        <h2>Design System Exprt</h2>
+                        <p>Creation / Edition or Audit of your DS</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2 class="section-title">My Portfolio</h2>
+            <div class="portfolio-container">
+                <div class="portfolio-card">
+                    <div class="portfolio-image-container">
+                        <img src="public/images/portfolio.webp" class="portfoli-image" alt="">
+                    </div>
+                    <div class="portfolio-card-body">
+                        <h2>Project 1</h2>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-image-container">
+                        <img src="public/images/1131w-Ina0HeyTFUk.webp" class="portfoli-image" alt="">
+                    </div>
+                    <div class="portfolio-card-body">
+                        <h2>Project 1</h2>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-image-container">
+                        <img src="public/images/portfolio.webp" class="portfoli-image" alt="">
+                    </div>
+                    <div class="portfolio-card-body">
+                        <h2>Project 1</h2>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="me">
+            <h2 class="section-title">About Me</h2>
+            <div class="aboutme-container">
+                <img src="public/images/portrait.jpg" class="my-image" alt="">
+                <div class="text-container">
+                    <h2 class="my-name">Anwar Altamimi</h2>
+                    <p class="info-me">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia modi voluptatibus natus.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-me">
+            <h2 class="section-title">Contact Me</h2>
+            <form action="">
+                <div class="input-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" placeholder="Full Name">
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="input-group">
+                    <label for="message">Message</label>
+                    <input type="text" id="message" placeholder="Enter your message">
+                </div>
+                <div class="input-group">
+                    <button class="contact-button">Send Message</button>
+                </div>
+            </form>
+        </section>
+
+        <footer>
+            <div class="footer-logo">
+                <h2>LOGO</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro saepe quia laborum exercitationem voluptates ipsa.</p>
+            </div>
+            <div class="footer-address">
+                <a href="mailto:anwaraltamimi@gmail.com">anwaraltamimi@gmail.com</a>
+                <a href="phone:+972599285566">0599285566</a>
+                <p>Mon - Fri : 9am - 7pm</p>
+                <p></p>
+            </div>
+            <div class="footer-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d218134.74526545467!2d34.26070545556642!3d31.32155677247043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151cf2d28866bdd9%3A0xee17a001d166f686!2sPalestine!5e0!3m2!1sen!2s!4v1718727853649!5m2!1sen!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
